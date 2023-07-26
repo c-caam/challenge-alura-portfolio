@@ -5,5 +5,5 @@
 </p>
 
 
-### Este es uno de los challenges realizados para Alura ONE Oracle.
+### This is one of the challenges realized for Alura ONE Oracle.
 
