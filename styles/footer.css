@@ -1,0 +1,24 @@
+.footer {
+    padding: 2rem;
+}
+
+.footer__rodape {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        padding: 1rem;
+        width: 45rem;
+    }
+}

@@ -1,0 +1,143 @@
+.formcontato {
+    padding: 2rem 0;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+}
+
+.formcontato__img {
+    float: left;
+    width: 50%;
+    padding: 2rem 1.5rem;
+}
+
+.formcontato__text {
+    padding: 2rem 0.5rem;
+}
+
+.formcontato__title {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+}
+
+.formcontato__subtext {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    width: 60vw;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.formcontato__input, .formcontato__textarea {
+    border-bottom: #C8C8C8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+.formcontato__botao {
+    background-color: #2A7AE4;
+    padding: 0.8rem;
+    border: 2px solid #2A7AE4;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.formcontato__botao:hover {
+    background-color: #1454a2;
+    cursor: pointer;
+}
+
+.input-message-error {
+    color: rgb(145, 32, 32);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .formcontato {
+        padding: 1rem 0;
+    }
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .formcontato__text {
+        padding: 1rem 0;
+    }
+
+    .formcontato__title {
+        font-size: 1.3rem;
+        padding: 0.8rem 0;
+    }
+    
+    .formcontato__subtext {
+        font-size: 0.8rem;
+        margin-bottom: 0.7rem;
+        width: 80vw;
+    }
+    
+    .formcontato__form {
+        margin-top: 1.5rem;
+    }
+    
+    .formcontato__botao {
+        padding: 0.7rem;
+        width: 40%;
+    }
+
+    .input-message-error {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .formcontato {
+        padding: 1rem 0;
+        width: 45rem;
+    }
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .formcontato__text {
+        padding: 1rem 0;
+    }
+
+    .formcontato__title {
+        font-size: 1.3rem;
+        padding: 0.8rem 0;
+    }
+    
+    .formcontato__subtext {
+        font-size: 0.8rem;
+        margin-bottom: 0.7rem;
+        width: 80vw;
+    }
+    
+    .formcontato__form {
+        margin-top: 1.5rem;
+    }
+    
+    .formcontato__botao {
+        padding: 0.7rem;
+        width: 40%;
+    }
+
+    .input-message-error {
+        font-size: 0.7rem;
+    }
+}

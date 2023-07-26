@@ -1,0 +1,153 @@
+.experience {
+    padding: 2rem;
+}
+
+.experience__section__title {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.experience__box {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.experience__img {
+    width: 50%;
+    float: left;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    clear: right;
+}
+
+.experience__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.experience__text {
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+.experience__repo {
+    font-size: 0.9rem;
+}
+
+.experiencia__botao--repo {
+    border: 2px solid #2A7AE4;
+    padding: 0.8rem;
+    color: #2A7AE4;
+    margin-right: 0.4rem;
+    transition: 1s;
+}
+
+.experiencia__botao--repo:hover {
+    background-color: #1454a2;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.experience__demo {
+    font-size: 0.9rem;
+}
+
+.experience__botao--demo {
+    background-color: #2A7AE4;
+    padding: 0.8rem;
+    border: 2px solid #2A7AE4;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.experience__botao--demo:hover {
+    background-color: #1454a2;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    .experience {
+        padding: 1rem;
+    }
+
+    .experience__section__title {
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+
+    .experience__box {
+        padding: 1rem 0;
+    }
+
+    .experience__info {
+        padding: 3rem;
+    }
+
+    .experience__title {
+        font-size: 1rem;
+    }
+    
+    .experience__text, .experience__repo {
+        font-size: 0.8rem;
+    }
+    
+    .experiencia__botao--repo, .experience__botao--demo {
+        padding: 0.6rem;
+    }
+    
+    .experience__demo {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .experience {
+        padding: 1rem;
+        width: 45rem;
+    }
+    
+    .experience__section__title {
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    
+    .experience__box {
+        padding: 1rem 0;
+    }
+    
+    .experience__img {
+        width: 50%;
+    }
+    
+    .experience__info {
+        padding: 3rem;
+    }
+    
+    .experience__title {
+        font-size: 1rem;
+    }
+
+    .experience__text, .experience__repo {
+        font-size: 0.8rem;
+    }
+
+    .experiencia__botao--repo, .experience__botao--demo {
+        padding:1rem;
+    }
+    
+    .experience__demo {
+        font-size: 0.8rem;
+    }
+}
