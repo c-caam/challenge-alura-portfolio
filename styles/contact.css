@@ -65,7 +65,7 @@
 
 
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .formcontato {
         padding: 1rem 0;
     }
@@ -103,7 +103,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .formcontato {
         padding: 1rem 0;
         width: 45rem;

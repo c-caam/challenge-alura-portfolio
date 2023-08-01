@@ -37,7 +37,7 @@
 
 
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .hobbies {
         padding: 1rem;
     }
@@ -63,7 +63,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
     .hobbies {
         padding: 1rem;
         width: 45rem;
@@ -72,6 +72,11 @@
     .hobbies__title {
         font-size: 1.3rem;
         padding: 1rem;
+    }
+
+    .hobbies__line {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
     .hobbies__box {

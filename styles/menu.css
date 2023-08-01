@@ -38,7 +38,7 @@
 
 
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     
     .menu__header, .menu__list {
         justify-content: flex-end;
@@ -50,11 +50,20 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
 
     .menu {
         padding: 1rem;
         width: 45rem;
+    }
+
+    .menu__header, .menu__list {
+        justify-content: flex-end;
+        width: 23rem;
+    }
+
+    .menu__list__item {
+        display: none;
     }
 
     .menu__list__item__contact {
